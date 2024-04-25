@@ -16,5 +16,4 @@ public class Constants {
     public static final String SCREENPATH = "ScreenshotsFolder";
     public static final String ISNTINRANGE = " is not within range: ";
     public static final String ERRORMESSAGE = "Epic sadface: Sorry, this user has been locked out.";
-    public static final String CONF = "CONFLICT";
 }

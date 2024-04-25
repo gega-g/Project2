@@ -13,5 +13,4 @@ public class BarsPage {
     public ElementsCollection diagrams = $$(".voucher-diagram > div");
     public SelenideElement productWithNoSales = $(byText("გაყიდულია 0")).parent().parent();
     public SelenideElement progressDiagram = productWithNoSales.find(".voucher-diagram > div");
-    public static final String CONF = "Conflict";
 }
