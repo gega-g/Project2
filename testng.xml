@@ -1,0 +1,26 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Project2Suite" parallel="tests">
+    <test name="SwoopTests">
+        <parameter name="browser" value="chrome"/>
+        <groups>
+            <run>
+                <include name="SwoopRegression"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="ge.tbc.tbcitacademy.tests.swoop.OfferTests"/>
+        </classes>
+    </test>
+
+    <test name="SaucedemoTests">
+        <parameter name="browser" value="chrome"/>
+        <groups>
+            <run>
+                <include name="SauceDemoLogin"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="ge.tbc.tbcitacademy.tests.saucedemo.LoginTests"/>
+        </classes>
+    </test>
+</suite>
